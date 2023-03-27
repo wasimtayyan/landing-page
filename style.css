@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
+header{
+ background-color:hsl(353, 100%, 62%);
+ background-image: url(./images/bg-pattern-intro-mobile.svg);
+ border-radius: 0  0 0 25%;
+ color: white;
+}
+body{
+    font-size: 16px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+}
+.singup {
+ background-color: white;
+ color:hsl(353, 100%, 62%);
+}
+.very-dark-blue {
+    color: hsl(237, 23%, 32%) ;
+
+}
+.xxl-f{
+    font-weight: 700;
+   font-size: xx-large
+}
+.blue{
+    background-color: hsl(237, 23%, 32%);
+    background-image: url(./images/bg-pattern-circles.svg);
+    color: white;
+    border-radius: 0  25% 0 25%;
+   
+}
+/* .paraghraph{
+    padding-top: 2em;
+} */
+footer{
+    background-color: hsl(240, 10%, 16%);
+    color:  hsl(240, 2%, 79%);
+    border-radius: 0 25% 0 0;
+   
+}
+ul{
+    list-style: none;
+}
+p a{
+    text-decoration: none;
+
+    
+}
+@media  (max-width:767px) {
+    .disappear {
+        display: none;
+    }
+    .ok{
+        display: block;
+    }
+    .top-sm{
+        margin-top: 30px;
+    }
+    
+}
+@media (min-width:768px) {
+    .disappear--image{
+        display: none;
+    }
+    
+}
+@media (min-width:768px){
+    .left{
+        margin-left: -500px;
+    }
+    .top{
+        margin-top: 200px;
+    }
+    .right{
+        margin-right: -500px;
+    }
+}
